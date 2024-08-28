@@ -6,7 +6,7 @@ public class ContaBancaria {
     private String nomeCliente;
     private boolean saldoConta;
 
-    public ContaBancaria(int conta, String agencia, String nomeCliente, boolean saldoConta) {
+    public ContaBancaria(int conta, String agencia, String nomeCliente, Double saldoConta) {
         this.conta = conta;
         this.agencia = agencia;
         this.nomeCliente = nomeCliente;

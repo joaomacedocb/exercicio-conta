@@ -15,11 +15,17 @@ public class ContaTerminal {
         System.out.println("Perfeito. Agora digite a sua conta:");
         int contaForms = scanner.nextInt();
 
+        scanner.nextLine();
+
         System.out.println("Agora informe o seu nome, por gentileza.");
         String nomeForms = scanner.nextLine();
 
         System.out.println("Certo! Qual saldo deseja inserir em sua conta?");
-        double saldoForms = scanner.nextDouble();
+        Double saldoForms = scanner.nextDouble();
+
+        ContaBancaria conta1 = new ContaBancaria(contaForms, agenciaForms,nomeForms, saldoForms);
+
+
 
 
 
