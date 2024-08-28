@@ -4,7 +4,7 @@ public class ContaBancaria {
     private int conta;
     private String agencia;
     private String nomeCliente;
-    private boolean saldoConta;
+    private Double saldoConta;
 
     public ContaBancaria(int conta, String agencia, String nomeCliente, Double saldoConta) {
         this.conta = conta;
@@ -37,11 +37,11 @@ public class ContaBancaria {
         this.nomeCliente = nomeCliente;
     }
 
-    public boolean isSaldoConta() {
+    public Double getSaldoConta() {
         return saldoConta;
     }
 
-    public void setSaldoConta(boolean saldoConta) {
+    public void setSaldoConta(Double saldoConta) {
         this.saldoConta = saldoConta;
     }
 

@@ -25,6 +25,10 @@ public class ContaTerminal {
 
         ContaBancaria conta1 = new ContaBancaria(contaForms, agenciaForms,nomeForms, saldoForms);
 
+        System.out.println("Olá, " + conta1.getNomeCliente() + ". Obrigado por criar uma conta em nosso banco. " +
+                "A sua agência é " + conta1.getAgencia() + ", a sua conta é " + conta1.getConta() +
+                 ". E o seu saldo de " + conta1.getSaldoConta() + " já está disponível para saque.");
+
 
 
 
